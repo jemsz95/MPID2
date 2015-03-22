@@ -4,7 +4,7 @@
     error_reporting(-1);
     ini_set('display_errors', 'On');
 
-    if(!isEmpty($_FILES)) {
+    if(!empty($_FILES)) {
         $api= new TessBaseAPI;
         $api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
         $api->SetPageSegMode(PSM_AUTO);
