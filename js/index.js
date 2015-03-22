@@ -12,7 +12,7 @@ var anImage = new Image();
 
                 $.ajax({
                     timeout: 20000,
-                    url: 'ajax-tesseract.php', // Url to which the request is send
+                    url: 'tessetact-test.php', // Url to which the request is send
                     type: 'POST',             // Type of request to be send, called as method
                     data: {'image': output},
                     success: successCallback,
@@ -539,7 +539,7 @@ var anImage = new Image();
 
                     document.body.appendChild(anImage);
 
-                    //tesseract(imageSrc, ocrResponse, function(data) {console.log(data);});
+                    tesseract(imageSrc, ocrResponse, function(data) {console.log(data);});
                 }
 
                 ctx.strokeStyle = "rgb(0,255,0)";
