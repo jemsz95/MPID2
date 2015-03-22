@@ -19,6 +19,7 @@
                     success: successCallback,
                     error: errorCallback
                 });
+            }
 
             var video = document.getElementById('webcam');
             var canvas = document.getElementById('canvas');
