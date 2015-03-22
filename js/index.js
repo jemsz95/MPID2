@@ -11,7 +11,7 @@
                     timeout: 20000,
                     url: 'ajax-tesseract.php', // Url to which the request is send
                     type: 'POST',             // Type of request to be send, called as method
-                    data: {'imagen': imageSrc},
+                    data: {'image': imageSrc},
                     success: successCallback,
                     error: errorCallback
                 });
