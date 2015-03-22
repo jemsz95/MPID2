@@ -10,7 +10,7 @@
 
         $image = base64_decode ($_POST['image']);
 
-        var_dump($image);
+        var_dump(error_get_last());
 
         //$string = ProcessPagesFileStream($image,$api);
 
