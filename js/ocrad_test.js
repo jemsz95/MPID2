@@ -83,7 +83,7 @@
                 this.match_threshold = 48;
 
                 this.train_pattern = function() {
-                    var templateImg = new Image;
+                    var templateImg = document.createElement('image');
                     templateImage.src = "HackMTY/Template-ITESM.png";
 
                     var tempCanvas = document.createElement('canvas');
