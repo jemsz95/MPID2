@@ -84,7 +84,7 @@
 
                 this.train_pattern = function() {
                     var templateImg = document.createElement('img');
-                    templateImage.src = "HackMTY/Template-ITESM.png";
+                    templateImg.src = "HackMTY/Template-ITESM.png";
 
                     var tempCanvas = document.createElement('canvas');
                     var tempContext = tempCanvas.getContext('2d');
@@ -94,7 +94,7 @@
 
                     var template_img_u8;
 
-                    jsfeat.imgproc.grayscale(imageData.data, 640, 480, template_img_u8);
+                    jsfeat.imgproc.grayscale(tempImageData.data, 640, 480, template_img_u8);
 
 
                     var lev=0, i=0;
