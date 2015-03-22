@@ -18,7 +18,7 @@
         $api->SetPageSegMode(PSM_AUTO);
 
         $image = "temp.png";
-        $image = base64_to_jpeg($_POST['image'], $image)
+        $image = base64_to_jpeg($_POST['image'], $image);
         $string = ProcessPagesFileStream($image,$api);
 
         $string = 'something';
