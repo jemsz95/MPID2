@@ -88,7 +88,7 @@
 
                     var tempCanvas = document.createElement('canvas');
                     var tempContext = tempCanvas.getContext('2d');
-                    tempContext.drawImage(templateImg, 0, 0, templateImg.width, templateImg.height);
+                    tempContext.drawImage(templateImg, templateImg.width, templateImg.height);
 
                     var tempImageData = tempContext.getImageData(0,0,templateImg.width,templateImg.height);
 
