@@ -12,7 +12,7 @@
                     timeout: 20000,
                     url: 'ajax-tesseract.php', // Url to which the request is send
                     type: 'POST',             // Type of request to be send, called as method
-                    data: requestData,
+                    data: JSON.stringify(requestData),
                     contentType: 'json',       // The content type used when sending data to the server.
                     success: successCallback,
                     error: errorCallback
