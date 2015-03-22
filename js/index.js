@@ -6,16 +6,13 @@
             tempCanvas.id = 'temp_canvas';
 
             function tesseract(image, successCallback, errorCallback) {
-                var formData = new FormData();
-                formData.append('image', image);
+                var requestData = {'image': image}
 
                 $.ajax({
                     url: "ajax-tesseract.php", // Url to which the request is send
                     type: "POST",             // Type of request to be send, called as method
-                    data: formData, // Data sent to server, a set of key/value pairs (i.e. form fields and values)
-                    contentType: false,       // The content type used when sending data to the server.
-                    cache: false,             // To unable request pages to be cached
-                    processData:false,       // To send DOMDocument or non processed data file it is set to false
+                    data: requestData,
+                    contentType: 'json',       // The content type used when sending data to the server.
                     success: successCallback,
                     error: errorCallback
                 });
