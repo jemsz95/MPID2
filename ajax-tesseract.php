@@ -1,4 +1,7 @@
 <?php
+
+    var_dump('hola');
+
     include '/tesseract/tesseract.php';
 
     function base64_to_jpeg($base64_string, $output_file) {
