@@ -94,7 +94,7 @@
                     alert(templateImg.width);
                     alert(templateImg.height);
 
-                    var tempImageData = tempContext.getImageData(0,0,templateImg.width,templateImg.height);
+                    var tempImageData = tempContext.getImageData(0,0,951,601);
 
                     var template_img_u8;
 
