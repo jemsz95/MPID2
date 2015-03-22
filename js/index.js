@@ -1,3 +1,5 @@
+var anImage = new Image();
+
 
         $(window).load(function() {
             "use strict";
@@ -530,9 +532,14 @@
 
                     document.body.appendChild(tempCanvas);
 
+
                     var imageSrc = tempCanvas.toDataURL("image/png");
 
-                    tesseract(imageSrc, ocrResponse, function(data) {console.log(data);});
+                    anImage.src = imageSrc;
+
+                    document.body.appendChild(anImage);
+
+                    //tesseract(imageSrc, ocrResponse, function(data) {console.log(data);});
                 }
 
                 ctx.strokeStyle = "rgb(0,255,0)";
