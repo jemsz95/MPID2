@@ -9,5 +9,5 @@
 
     $string = ProcessPagesFileStream($image,$api);
 
-    echo $ajax;
+    echo $string;
 ?>
