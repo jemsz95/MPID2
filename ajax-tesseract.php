@@ -6,9 +6,9 @@
         //$api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
         //$api->SetPageSegMode(PSM_AUTO);
 
-        var_dump($_POST['image']);
+        //var_dump($_POST['image']);
 
-        //$image = base64_decode ($_POST['image']);
+        $image = base64_decode ($_POST['image']);
 
         var_dump(error_get_last());
 
