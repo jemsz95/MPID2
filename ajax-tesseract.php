@@ -1,5 +1,5 @@
 <?php
-    include '/tesseract/tesseract.php';
+    include '/home/javier/public_html/tesseract/tesseract.php';
 
     if(!empty($_POST)) {
         //$api= new TessBaseAPI;
