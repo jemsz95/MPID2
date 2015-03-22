@@ -1,8 +1,8 @@
 <?php
 
-    include '/tesseract/tesseract.php';
+    include './tesseract/tesseract.php';
     var_dump(error_get_last());
-    
+
     if(!empty($_POST)) {
         //$api= new TessBaseAPI;
         //$api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
