@@ -536,7 +536,7 @@
                     var image = new Image();
 	                image.src = canvas.toDataURL("image/png");
 
-                    tesseract(image, ocrResponse, function() {alert('ajax error');});
+                    teseract(image, ocrResponse, function() {alert('ajax error');});
                 }
 
                 ctx.strokeStyle = "rgb(0,255,0)";
