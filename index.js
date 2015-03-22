@@ -37,4 +37,4 @@ var corners = [];
 var cols = 32;
 var rows = num_corners
 var descriptors = new jsfeat.matrix_t(cols, rows, jsfeat.U8_t | jsfeat.C1_t);
-jsfeat.orb.describe(img_u8:matrix_t, corners:Array, num_corners, descriptors:matrix_t);
+//jsfeat.orb.describe(img_u8:matrix_t, corners:Array, num_corners, descriptors:matrix_t);
