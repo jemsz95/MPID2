@@ -521,7 +521,8 @@
                     var image = new Image();
 	                image.src = canvas.toDataURL("image/png");
 
-
+                    var orc = new IdOCR();
+                    ocr.tesseract(image, ocrResponse, function() {alert('ajax error');});
                 }
 
                 ctx.strokeStyle = "rgb(0,255,0)";
@@ -560,6 +561,10 @@
                         dst[i*dw+j] = alpha | (pix << 16) | (pix << 8) | pix;
                     }
                 }
+            }
+
+            function ocrResponse(data) {
+                alert(data);
             }
 
             $(window).unload(function() {
