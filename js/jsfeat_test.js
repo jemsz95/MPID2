@@ -76,6 +76,8 @@
             var matches, homo3x3, match_mask;
             var num_train_levels = 4;
 
+            var template_img_u8
+
             var demo_opt = function(){
                 this.blur_size = 5;
                 this.lap_thres = 30;
@@ -86,25 +88,25 @@
                     var templateImg = document.createElement('img');
                     templateImg.src = "/HackMTY/Template-ITESM.png";
 
-                    templateImg.onload(function() {
+                    templateImg.onload = function() {
                         var tempCanvas = document.createElement('canvas');
+                        tempCanvas.width = 650;
+                        tempCanvas.height = 350;
                         var tempContext = tempCanvas.getContext('2d');
-                        tempContext.drawImage(templateImg, templateImg.width, templateImg.height);
+                        tempContext.drawImage(templateImg, 0, 0,templateImg.width,templateImg.height);
 
-                        alert(templateImg.width);
-                        alert(templateImg.height);
+                        document.body.appendChild(tempCanvas);
 
                         var tempImageData = tempContext.getImageData(0,0,templateImg.width,templateImg.height);
 
-                        var template_img_u8;
+                        template_img_u8 = new jsfeat.matrix_t(templateImg.width, templateImg.height, jsfeat.U8_t | jsfeat.C1_t);
 
-                        jsfeat.imgproc.grayscale(tempImageData.data, 640, 480, template_img_u8);
-
+                        jsfeat.imgproc.grayscale(tempImageData.data, templateImg.width, templateImg.height, template_img_u8);
 
                         var lev=0, i=0;
                         var sc = 1.0;
-                        var max_pattern_size = 512;
-                        var max_per_level = 300;
+                        var max_pattern_size = 800;
+                        var max_per_level = 500;
                         var sc_inc = Math.sqrt(2.0); // magic number ;)
                         var lev0_img = new jsfeat.matrix_t(template_img_u8.cols, template_img_u8.rows, jsfeat.U8_t | jsfeat.C1_t);
                         var lev_img = new jsfeat.matrix_t(template_img_u8.cols, template_img_u8.rows, jsfeat.U8_t | jsfeat.C1_t);
@@ -173,7 +175,7 @@
                             sc /= sc_inc;
                         }
                     }
-                });
+                }
             }
 
             function demo_app(videoWidth, videoHeight) {
@@ -255,7 +257,7 @@
                     var num_matches = 0;
                     var good_matches = 0;
                     if(pattern_preview) {
-                        render_mono_image(pattern_preview.data, data_u32, pattern_preview.cols, pattern_preview.rows, 640);
+                        //render_mono_image(pattern_preview.data, data_u32, pattern_preview.cols, pattern_preview.rows, 640);
                         stat.start("matching");
                         num_matches = match_pattern();
                         good_matches = find_transform(matches, num_matches);
@@ -265,9 +267,11 @@
                     ctx.putImageData(imageData, 0, 0);
 
                     if(num_matches) {
-                        render_matches(ctx, matches, num_matches);
-                        if(good_matches > 8)
+                        //render_matches(ctx, matches, num_matches);
+                        if(good_matches > 15){
                             render_pattern_shape(ctx);
+                        }
+
                     }
 
                     $('#log').html(stat.log());
