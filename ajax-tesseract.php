@@ -7,7 +7,7 @@
         $api->SetPageSegMode(PSM_AUTO);
 
         $image = $_FILES['image']['tmp_name'];
-        $string = ProcessPagesFileStream($image,$api);
+        //$string = ProcessPagesFileStream($image,$api);
 
         $string = 'something';
 
