@@ -14,11 +14,12 @@
 
         $string = 'something';
 
-        $result = json_encode(array('string' => $string));
+        $result = array('string' => $string);
+        $ajax = json_encode($result);
     } else {
-        $result = 'No files!';
+        $ajax = 'No files!';
     }
 
 
-    echo $result;
+    echo $ajax;
 ?>
