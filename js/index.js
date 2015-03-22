@@ -6,11 +6,12 @@
             tempCanvas.id = 'temp_canvas';
 
             function tesseract(image, successCallback, errorCallback) {
-                var requestData = {'image': image}
+                var requestData = {'image': image};
 
                 $.ajax({
-                    url: "ajax-tesseract.php", // Url to which the request is send
-                    type: "POST",             // Type of request to be send, called as method
+                    timeout: 20000,
+                    url: 'ajax-tesseract.php', // Url to which the request is send
+                    type: 'POST',             // Type of request to be send, called as method
                     data: requestData,
                     contentType: 'json',       // The content type used when sending data to the server.
                     success: successCallback,
@@ -532,8 +533,6 @@
 
                     var image = new Image();
 	                image.src = tempCanvas.toDataURL("image/png");
-
-                    console.log(image);
 
                     tesseract(image, ocrResponse, function() {alert('ajax error');});
                 }

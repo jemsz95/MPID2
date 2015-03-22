@@ -16,18 +16,18 @@
     }
 
     if(!empty($_POST)) {
-        $api= new TessBaseAPI;
-        $api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
-        $api->SetPageSegMode(PSM_AUTO);
+        //$api= new TessBaseAPI;
+        //$api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
+        //$api->SetPageSegMode(PSM_AUTO);
 
-        $image = "temp.png";
-        $image = base64_to_jpeg($_POST['image'], $image);
-        $string = ProcessPagesFileStream($image,$api);
+        //$image = "temp.png";
+        //$image = base64_to_jpeg($_POST['image'], $image);
+        //$string = ProcessPagesFileStream($image,$api);
 
-        $string = 'something';
+        $ajax = 'something';
 
-        $result = array('string' => $string);
-        $ajax = json_encode($result);
+        //$result = array('string' => $string);
+        //$ajax = json_encode($result);
     } else {
         $ajax = 'No files!';
     }
