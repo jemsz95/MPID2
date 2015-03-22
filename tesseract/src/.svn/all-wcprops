@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/40/trunk/src
+END
+tesseract.ini
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/40/trunk/src/tesseract.ini
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/39/trunk/src/Makefile
+END
+libtesseract302.lib
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/36/trunk/src/libtesseract302.lib
+END
+suhosin_globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/36/trunk/src/suhosin_globals.h
+END
+tesseract.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/37/trunk/src/tesseract.php
+END
+main_dummy.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/36/trunk/src/main_dummy.h
+END
+fmemopen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/36/trunk/src/fmemopen.cpp
+END
+opencv_core240.lib
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/36/trunk/src/opencv_core240.lib
+END
+Makefile.in.old
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/39/trunk/src/Makefile.in.old
+END
+tsrm_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/36/trunk/src/tsrm_config.h
+END
+main_dummy2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/36/trunk/src/main_dummy2.cpp
+END
+util-fmemopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/36/trunk/src/util-fmemopen.c
+END
+Makefile.good
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/36/trunk/src/Makefile.good
+END
+util-fmemopen_old.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/36/trunk/src/util-fmemopen_old.h
+END
+baseapi_mini.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/36/trunk/src/baseapi_mini.h
+END
+util-fmemopen.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/36/trunk/src/util-fmemopen.h
+END
+tesseract_wrap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/37/trunk/src/tesseract_wrap.cpp
+END
+main_dummy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/36/trunk/src/main_dummy.cpp
+END
+tesseractmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/36/trunk/src/tesseractmain.cpp
+END
+tesseract.i
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/36/trunk/src/tesseract.i
+END
+suricata-common.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/36/trunk/src/suricata-common.h
+END
+fmemopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/36/trunk/src/fmemopen.c
+END
+php_tesseract.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/37/trunk/src/php_tesseract.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/36/trunk/src/config.h
+END
+fmemopen.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/36/trunk/src/fmemopen.h
+END
+suhosin_patch.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/36/trunk/src/suhosin_patch.h
+END
+eurotext.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/37/trunk/src/eurotext.jpg
+END
+main_dummp.cpp.good
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/36/trunk/src/main_dummp.cpp.good
+END
+stdeb.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/36/trunk/src/stdeb.cfg
+END
+liblept.lib
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/36/trunk/src/liblept.lib
+END
+Makefile.am.good
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/37/trunk/src/Makefile.am.good
+END
+util-fmemopen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/36/trunk/src/util-fmemopen.cpp
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/36/trunk/src/test.php
+END

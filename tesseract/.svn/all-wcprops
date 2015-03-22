@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/41/trunk
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/35/trunk/install-sh
+END
+makefile.shsh
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/21/trunk/makefile.shsh
+END
+debianRulesBackUp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/21/trunk/debianRulesBackUp
+END
+config.log
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/41/trunk/config.log
+END
+SetCVImage.patch
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/SetCVImage.patch
+END
+runme
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/21/trunk/runme
+END
+config.status
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/41/trunk/config.status
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/21/trunk/changelog
+END
+fmemopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/21/trunk/fmemopen.c
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/35/trunk/config.guess
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/35/trunk/config.h
+END
+autoscan.log
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/21/trunk/autoscan.log
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/35/trunk/config.sub
+END
+config.h.in~
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/35/trunk/config.h.in~
+END
+eurotext.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/21/trunk/eurotext.jpg
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/35/trunk/config.h.in
+END
+util-fmemopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/21/trunk/util-fmemopen.c
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/40/trunk/configure.ac
+END
+libtool
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/41/trunk/libtool
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/22/trunk/test.py
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/40/trunk/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/35/trunk/missing
+END
+buildDeb
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/23/trunk/buildDeb
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/35/trunk/autogen.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/41/trunk/Makefile
+END
+buildDeb_bad
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/21/trunk/buildDeb_bad
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/40/trunk/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/40/trunk/Makefile.in
+END
+tesseract.i
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/21/trunk/tesseract.i
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/35/trunk/depcomp
+END
+test2.py
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/21/trunk/test2.py
+END
+buildall
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/21/trunk/buildall
+END
+stamp-h1
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/35/trunk/stamp-h1
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/35/trunk/ltmain.sh
+END
+main_dummp.cpp.good
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/21/trunk/main_dummp.cpp.good
+END
+stdeb.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/21/trunk/stdeb.cfg
+END
+eurotext.tif
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/22/trunk/eurotext.tif
+END
+configure.ac~
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/35/trunk/configure.ac~
+END
+tesseract.php.good
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/tesseract.php.good
+END
+tesseract.ini
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/21/trunk/tesseract.ini
+END
+cleanall
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/21/trunk/cleanall
+END
+testing
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/21/trunk/testing
+END
+include-binaries
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/include-binaries
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/40/trunk/aclocal.m4
+END

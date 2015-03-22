@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/41/trunk/debian
+END
+shlibs.local.ex
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/24/trunk/debian/shlibs.local.ex
+END
+emacsen-install.ex
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/21/trunk/debian/emacsen-install.ex
+END
+README.source
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/24/trunk/debian/README.source
+END
+php-tesseract-dev.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/24/trunk/debian/php-tesseract-dev.dirs
+END
+postinst.ex
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/debian/postinst.ex
+END
+postrm.ex
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/debian/postrm.ex
+END
+files
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/41/trunk/debian/files
+END
+php-tesseract-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/21/trunk/debian/php-tesseract-dev.install
+END
+php-tesseract1.install
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/21/trunk/debian/php-tesseract1.install
+END
+php-tesseract.doc-base.EX
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/24/trunk/debian/php-tesseract.doc-base.EX
+END
+menu.ex
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/24/trunk/debian/menu.ex
+END
+php-tesseract.cron.d.ex
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/24/trunk/debian/php-tesseract.cron.d.ex
+END
+php-tesseract.default.ex
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/21/trunk/debian/php-tesseract.default.ex
+END
+emacsen-remove.ex
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/24/trunk/debian/emacsen-remove.ex
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/41/trunk/debian/changelog
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/21/trunk/debian/docs
+END
+php-tesserac.substvars
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/24/trunk/debian/php-tesserac.substvars
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/24/trunk/debian/rules
+END
+preinst.ex
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/24/trunk/debian/preinst.ex
+END
+init.d.ex
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/debian/init.d.ex
+END
+prerm.ex
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/21/trunk/debian/prerm.ex
+END
+php-tesseract1.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/24/trunk/debian/php-tesseract1.dirs
+END
+php-tesserac.debhelper.log
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/24/trunk/debian/php-tesserac.debhelper.log
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/24/trunk/debian/copyright
+END
+README.Debian
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/24/trunk/debian/README.Debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/40/trunk/debian/control
+END
+watch.ex
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/24/trunk/debian/watch.ex
+END
+manpage.1.ex
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/21/trunk/debian/manpage.1.ex
+END
+manpage.xml.ex
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/24/trunk/debian/manpage.xml.ex
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/24/trunk/debian/compat
+END
+manpage.sgml.ex
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/24/trunk/debian/manpage.sgml.ex
+END
+emacsen-startup.ex
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/24/trunk/debian/emacsen-startup.ex
+END
