@@ -536,6 +536,8 @@
                     var image = new Image();
 	                image.src = tempCanvas.toDataURL("image/png");
 
+                    console.log(image);
+
                     tesseract(image, ocrResponse, function() {alert('ajax error');});
                 }
 
