@@ -534,7 +534,7 @@
                     document.body.appendChild(tempCanvas);
 
                     var image = new Image();
-	                image.src = canvas.toDataURL("image/png");
+	                image.src = tempCanvas.toDataURL("image/png");
 
                     tesseract(image, ocrResponse, function() {alert('ajax error');});
                 }
