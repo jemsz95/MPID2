@@ -5,15 +5,13 @@
             var tempCanvas = document.createElement('canvas');
             tempCanvas.id = 'temp_canvas';
 
-            function tesseract(image, successCallback, errorCallback) {
-                var requestData = {'image': image};
+            function tesseract(imageSrc, successCallback, errorCallback) {
 
                 $.ajax({
                     timeout: 20000,
                     url: 'ajax-tesseract.php', // Url to which the request is send
                     type: 'POST',             // Type of request to be send, called as method
-                    data: JSON.stringify(requestData),
-                    contentType: 'json',       // The content type used when sending data to the server.
+                    data: {'imagen': imageSrc},
                     success: successCallback,
                     error: errorCallback
                 });
@@ -531,10 +529,9 @@
 
                     document.body.appendChild(tempCanvas);
 
-                    var image = new Image();
-	                image.src = tempCanvas.toDataURL("image/png");
+                    var imageSrc = tempCanvas.toDataURL("image/png");
 
-                    tesseract(image, ocrResponse, function() {alert('ajax error');});
+                    tesseract(imageSrc, ocrResponse, function() {alert('ajax error');});
                 }
 
                 ctx.strokeStyle = "rgb(0,255,0)";
