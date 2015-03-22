@@ -14,6 +14,7 @@ navigator.getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia
          },
          function(stream) {
              video.src = window.URL.createObjectURL(stream);
+             alert('cam works!');
          },
          function(error) {
              alert('Su navegador no permite acceder a la camara web o no existe una camara web');
