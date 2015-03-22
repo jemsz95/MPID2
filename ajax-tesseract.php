@@ -1,6 +1,6 @@
 <?php
-
-    include './tesseract/tesseract.php';
+    var_dump(error_get_last());
+    include dirname(__FILE__) . 'tesseract/tesseract.php';
     var_dump(error_get_last());
 
     if(!empty($_POST)) {
