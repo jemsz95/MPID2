@@ -1,16 +1,15 @@
 <?php
-
-    var_dump('hola');
-
     include '/tesseract/tesseract.php';
 
     if(!empty($_POST)) {
-        //$api= new TessBaseAPI;
-        //$api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
-        //$api->SetPageSegMode(PSM_AUTO);
+        $api= new TessBaseAPI;
+        $api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
+        $api->SetPageSegMode(PSM_AUTO);
 
-        //$image = "temp.png";
-        //$image = base64_to_jpeg($_POST['image'], $image);
+        $image = base64_decode ($_POST['image']);
+
+        var_dump($image);
+
         //$string = ProcessPagesFileStream($image,$api);
 
         $ajax = 'something';
