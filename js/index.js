@@ -6,12 +6,13 @@
             tempCanvas.id = 'temp_canvas';
 
             function tesseract(imageSrc, successCallback, errorCallback) {
+                var output=imageSrc.replace(/^data:image\/(png|jpg);base64,/, "");
 
                 $.ajax({
                     timeout: 20000,
                     url: 'ajax-tesseract.php', // Url to which the request is send
                     type: 'POST',             // Type of request to be send, called as method
-                    data: {'image': imageSrc},
+                    data: {'image': output},
                     success: successCallback,
                     error: errorCallback
                 });
