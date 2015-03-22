@@ -90,6 +90,9 @@
                     var tempContext = tempCanvas.getContext('2d');
                     tempContext.drawImage(templateImg, templateImg.width, templateImg.height);
 
+                    alert(templateImg.width);
+                    alert(templateImg.height);
+
                     var tempImageData = tempContext.getImageData(0,0,templateImg.width,templateImg.height);
 
                     var template_img_u8;
