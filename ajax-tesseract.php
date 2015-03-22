@@ -1,6 +1,9 @@
 <?php
     include '../php-tesseract/tesseract.php';
 
+    error_reporting(-1);
+    ini_set('display_errors', 'On');
+
     $api= new TessBaseAPI;
     $api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
     $api->SetPageSegMode(PSM_AUTO);
