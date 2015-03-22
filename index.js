@@ -17,6 +17,9 @@ navigator.getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia
              video.play();
              w = video.width;
              h = video.height;
+
+             canvas.width = w;
+             canvas.height = h;
          },
          function(error) {
              alert('Su navegador no permite acceder a la camara web o no existe una camara web');
