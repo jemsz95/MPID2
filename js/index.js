@@ -12,7 +12,7 @@ var anImage = new Image();
 
                 $.ajax({
                     timeout: 20000,
-                    url: 'tessetact-test.php', // Url to which the request is send
+                    url: 'ajax-tesseract.php', // Url to which the request is send
                     type: 'POST',             // Type of request to be send, called as method
                     data: {'image': output},
                     success: successCallback,

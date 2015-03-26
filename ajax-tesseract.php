@@ -1,17 +1,19 @@
 <?php
-    include 'tesseract/tesseract.php';
+    require_once 'tesseract/tesseract.php';
 
     if(!empty($_POST)) {
-        //$api= new TessBaseAPI;
-        //$api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
-        //$api->SetPageSegMode(PSM_AUTO);
+        $image = base64_decode($_POST['image']);
 
-        //$image = base64_decode ($_POST['image']);
+        file_put_contents('temp.png', $image);
 
-        //$string = ProcessPagesFileStream($image,$api);
+        $api= new TessBaseAPI;/*
+        $api->Init(".","eng",$mode_or_oem=OEM_DEFAULT);
+        $api->SetPageSegMode(PSM_AUTO);
 
-        //$result = array('string' => $string);
-        //$ajax = json_encode($result);
+        $mImgFile = "temp.png";
+
+        $ajax = ProcessPagesFileStream($mImgFile,$api);
+*/
     } else {
         $ajax = 'No files!';
     }
